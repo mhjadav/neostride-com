@@ -2,7 +2,6 @@ baseURL: http://neostride.com/
 languageCode: en-us
 title: Neostride LLC
 theme: hugo-fresh
-publishDir: public
 
 params:
   navbarlogo:
