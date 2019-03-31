@@ -1,0 +1,57 @@
+{{- $section2 := .Site.Params.section2 }}
+{{- $title    := index $section2 "title" }}
+{{- $subtitle := index $section2 "subtitle" }}
+{{- $features1 := index $section2 "features1" }}
+{{- $features2 := index $section2 "features2" }}
+
+<section class="section is-medium" id="consulting">
+  <div class="container">
+    <div class="column is-centered-tablet-portrait">
+      <h1 class="title section-title">{{ $title }}</h1>
+      <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+      <div class="divider"></div>
+    </div>
+    <div class="columns">
+      <div class="column is-6 ">
+        {{- range $features1 }}
+        <article class="media icon-box">
+          <figure class="media-left">
+            <p class="image">
+              <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
+            </p>
+          </figure>
+          <div class="media-content mt-25">
+            <div class="content">
+              <p>
+                <span class="icon-box-title">{{ .title }}</span>
+
+                <span class="icon-box-text">{{ .text }}</span>
+              </p>
+            </div>
+          </div>
+        </article>
+        {{- end }}
+      </div>
+      <div class="column is-6 ">
+        {{- range $features2 }}
+        <article class="media icon-box">
+          <figure class="media-left">
+            <p class="image">
+              <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
+            </p>
+          </figure>
+          <div class="media-content mt-25">
+            <div class="content">
+              <p>
+                <span class="icon-box-title">{{ .title }}</span>
+
+                <span class="icon-box-text">{{ .text }}</span>
+              </p>
+            </div>
+          </div>
+        </article>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+</section>

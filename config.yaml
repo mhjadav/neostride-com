@@ -1,0 +1,116 @@
+baseURL: http://neostride.com/
+languageCode: en-us
+title: Neostride LLC
+theme: hugo-fresh
+
+params:
+  navbarlogo:
+  # Logo (from /images/logos/___)
+   image: logos/icon-logo.png
+   link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Build. Manage.
+    # Hero subtitle (optional)
+    subtitle: simplify complex business processes to manageable solutions
+    # Button text
+    buttontext: Learn more
+    # Where the main hero button links to
+    buttonlink: "#strategy"
+    # Hero image (from /images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from /images/logos/clients/___.svg)
+    clientlogos:
+#    - systek
+#    - tribe
+#    - kromo
+#    - infinite
+#    - gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Strategy
+    url: /#strategy
+  - title: Consulting
+    url: /#consulting
+  - title: Open source
+    url: /#opensource
+  - title: Contact us
+    url: /#contactus
+    button: true
+  section1:
+    title: Great power comes
+    subtitle: with great applications
+  section2:
+    title: You're here because you want the best
+    subtitle: And we know it
+    features1:
+    - title: Business Process Management
+      text: Our end-to-end Business Process Management (BPM) approach treats processes as assets that directly contribute to your business value and performance.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: doc-sync
+    - title: Statistical Programming
+      text: Our statisticians have experience providing prompt and accurate reports, statistical summaries and efficacy and safety analyses.From the study design planning to final stages of data analysis and interpretation.
+      icon: laptop-globe
+    - title: Enterprise Resource Planning
+      text: Neostride offers an alternative to your company’s in-house operational planning, implementation, staffing, training, and ongoing operations of SAP applications.
+      icon: mouse-globe
+    features2:
+      - title: Mobile Application Development
+        text: Our expert designers and developers help organizations build performant native mobile applications across all the major platforms.
+        icon: mobile-feed
+      - title: Full-stack Web Development
+        text: Our full-stack web developers have extensive expertise with various front-end and back-end technologies. We have developed and deployed complex projects in both monolithic and microservices architecture.
+        icon: laptop-cloud
+      - title: Cloud Computing Services
+        text: Neostride helps organizations transform their IT environment with best-in-class Cloud Services. Our experts deliver secure and reliable cloud services that provide organizations with a competitive edge.
+
+
+        icon: plug-cloud
+  section3:
+    title: Open Source Initiatives
+    subtitle: the right way to do things
+    image: illustrations/mockups/app-mockup.png
+    buttonText: Other Projects
+    buttonLink: "https://github.com/factly/"
+  section4:
+    title: Contact Us
+    subtitle: email us with queries at contact@neostride.com
+    clients:
+    - name: Irma Walters
+      quote: 700 Central Expressway South, Ste. 400, Allen, TX 75013
+      job: Accountant
+      img: 1
+    - name: John Bradley
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Financial Analyst
+      img: 2
+    - name: Gary Blackman
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: HR Manager
+      img: 3
+  footer:
+    # Logo (from /images/logos/___)
+    logo: icon-logo.png
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/lucperkins/github-fresh
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://dribbble.com/#
+      icon: dribbble
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/lucperkins
+      icon: twitter
+    - link: https://bitbucket.org/#
+      icon: bitbucket
+    bulmalogo: false
+    quicklinks:
+      column1:
+#        title: "Product"
+        links:
+        - text: Discover features
+          link: /

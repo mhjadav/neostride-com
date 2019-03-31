@@ -1,0 +1,93 @@
+{{- $section3   := .Site.Params.section3 }}
+{{- $title      := index $section3 "title" }}
+{{- $subtitle   := index $section3 "subtitle" }}
+{{- $image      := index $section3 "image" }}
+{{- $buttonText := index $section3 "buttontext" }}
+{{- $buttonLink := index $section3 "buttonlink" }}
+<section class="section section-feature-grey is-medium" id="opensource">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-10 is-offset-1">
+        <div class="has-text-centered">
+          <img class="pushed-image" src="{{ printf "/images/%s" $image | relURL }}">
+        </div>
+      </div>
+    </div>
+
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">{{ $title }}</h2>
+      <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+      <div class="divider is-centered"></div>
+    </div>
+    <br>
+    <div class="columns">
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="/images/illustrations/icons/dega-logo.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+
+            <div class="content">
+              <a href="https://degafactcheck.com" target="_blank">Dega</a> is an open source publishing platform that integrates all the best practices of the ‘fact-checking’ ecosystem as mandated by the International Fact
+              Checking Network (IFCN) Code of principles. It enables you to seamlessly publish fact-check stories like any other.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="/images/illustrations/icons/counting-india.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <!--<div class="media">-->
+              <!--<div class="media-left">-->
+                <!--<figure class="image is-48x48">-->
+                  <!--<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">-->
+                <!--</figure>-->
+              <!--</div>-->
+              <!--<div class="media-content">-->
+                <!--<p class="title is-4">John Smith</p>-->
+                <!--<p class="subtitle is-6">@johnsmith</p>-->
+              <!--</div>-->
+            <!--</div>-->
+
+            <div class="content">
+              <a href="https://countingindia.com/" target="_blank">Counting India</a> is an attempt to bridge the gap between the facts and the narrative using the census data.
+              It is our attempt to process the data available and present it in a way to crunch the numbers, create personalized data visualization on key demographics.
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="/images/illustrations/icons/data-portal.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+
+            <div class="content">
+              <a href="https://github.com/factly/dataportal-nuxt" target="_blank">Data Portal</a> is an open-source project to publish data hubs and expose it through API for analysis.
+              Data Portal makes it easy to publish, share and use data sets for research and creating visualizations.
+              It allows for organizations to securely manage and expose public data.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="has-text-centered mt-20">
+      <a class="button cta is-large rounded secondary-btn raised" href="{{ $buttonLink }}" target="_blank">
+        {{ $buttonText }}
+      </a>
+    </p>
+  </div>
+</section>

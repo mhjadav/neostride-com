@@ -1,0 +1,18 @@
+{{- $footer      := .Site.Params.footer }}
+{{- $logo        := index $footer "logo" }}
+{{- $quickLinks  := index $footer "quicklinks" }}
+{{- $socialMedia := index $footer "socialmedia" }}
+{{- $bulmaLogo   := index $footer "bulmalogo" }}
+
+<footer class="footer footer-dark">
+  <div class="content has-text-centered">
+    <div class="column">
+      <div class="footer-logo">
+        <img src="{{ printf "/images/logos/%s" $logo | relURL }}">
+      </div>
+    </div>
+    <p>
+      NEOSTRIDE LLC © 2019
+    </p>
+  </div>
+</footer>
