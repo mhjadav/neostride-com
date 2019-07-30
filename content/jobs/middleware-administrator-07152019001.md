@@ -29,6 +29,7 @@ subtitle: The position is for maintenance and support of the JBoss EAS/EWS serve
 <br>
 <p><strong>Minimum educational requirements:</strong></p>
 <p>Bachelor’s degree in computer science, computer information systems, information technology, a closely related field, or a combination of education and experience equating to the U.S. equivalent of a Bachelor’s degree in one of the aforementioned subjects</p>
+<br>
 <div class="divider"></div>
 <br>
 <p><strong>Please email us your resume if you are interested to the following email address: jobs@neostride.com</strong></p>
