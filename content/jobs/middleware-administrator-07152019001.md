@@ -4,7 +4,6 @@ date: 2019-07-14T23:25:45-05:00
 draft: false
 subtitle: The position is for maintenance and support of the JBoss EAS/EWS server, RedHat MQ, IBM WebSphere Application Server, IBM MQ, PEGA and IBM WebSphere Portal administrator in the Enterprise Services (EN) unit of ITS.  Will be responsible for the setup, configuration, administration, and maintenance of these application server platforms.
 ---
-
 <p><strong>Technical Skills:</strong> Jboss EAP 6.3 / 7.1, RedHat MQ, IBM Websphere 8.5.5, IBM MQ 9.0.0.1, PEGA 7.1.7, WebSphere portal server 7.0, BigIp F5&nbsp;</p>
 <br>
 <p><strong>Job duties:</strong>The position is for maintenance and support of the JBoss EAS/EWS server, RedHat MQ, IBM WebSphere Application Server, IBM MQ, PEGA and IBM WebSphere Portal administrator in the Enterprise Services (EN) unit of ITS. Will be responsible for the setup, configuration, administration, and maintenance of these application server platforms.</p>

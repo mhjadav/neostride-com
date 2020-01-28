@@ -6376,7 +6376,7 @@ Section Styles
   padding: 60px 0; }
 
 img.pushed-image {
-  margin-top: -29vh; }
+  margin-top: -5vh; }
 
 .media.icon-box {
   border-top: none !important; }
@@ -6771,7 +6771,8 @@ Sidebar Styles
   left: 0;
   transform: translateX(-281px);
   transition: all .3s;
-  z-index: 10000; }
+  z-index: 10000;
+  overflow-y: auto; }
   .sidebar.is-active {
     transform: translateX(0); }
   .sidebar .sidebar-header {
